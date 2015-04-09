@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/lib/bootstrap.min.css" />
+<link rel="stylesheet" href="css/lib/bootstrap-theme.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Andrew Lewis - FE task</title>
+
+</head>
+<body>
+	<section id="header">
+        <div class="container mxWidth">
+            <header>
+                <div class="row">
+                    <div class="col-sm-4" id="leftCol">
+                    	<p>welcome to the</p>
+                        <img src="img/logo.jpg" width="172" height="43" alt="logo" />
+                    </div>
+                    <div class="col-sm-8" id="rightCol">
+                    	<h2>Secure negotiation centre</h2> 
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+    
+    <section id="status">
+    	<div class="container mxWidth ">
+        	<div class="row">
+            	<div class="col-sm-12 statusBar">
+     				<span class="bold">Status:</span><span> Withdrawn</span>
+                </div>
+            </div>
+     	</div>
+    </section>
+    
+    <section>
+    	<div class="container mxWidth containerStyles">
+        	<div class="row">
+            	<div class="col-sm-12">
+        			<h2>The property </h2>
+                    <span class="showHide">Hide</span>
+            	</div>
+            </div>
+            <div class="toggleThis">
+                <div class="row">
+                    <div class="col-sm-8" id="imgPadFix">
+                        <img src="img/house.jpg" class="inline" id="housePic" alt="house"/>
+                        <h3 class="inline">Eddington House, 10 Wiggington Road, Tamworth, B79 8PB</h3>
+                    </div>
+                    <div class="col-sm-4 alignRight">
+                        <p>Asking price</p>
+                        <p class="purplePrice">£189,950</p>
+                        <button class="btn btn-grey">VIEW EXTRAS INCLUDED</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+    	<div class="container mxWidth containerStyles greyBorder">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Buyers Details</h2>
+                    <span class="showHide">Hide</span>
+                </div>
+            </div>
+            <div class="toggleThis">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="buyersDetails">
+                            <li>
+                                Name:
+                            </li>
+                            <li>
+                                Mr David Sheperd
+                            </li>
+                        </ul>
+                        <ul class="buyersDetails">
+                            <li>
+                                Buying position:
+                            </li>
+                            <li>
+                                Property to sell - 20 weeks on the internet
+                            </li>
+                        </ul>
+                        <ul class="buyersDetails">
+                            <li>
+                                Financial position:
+                            </li>
+                            <li>
+                                Mortgage required - approved
+                            </li>
+                        </ul>
+                        <ul class="buyersDetails">
+                            <li>
+                                Timescale:
+                            </li>
+                            <li>
+                                Would like to move in 10 weeks - no chain
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="splitHoriSec">
+    	<div class="container mxWidth">
+        	<div class="row">
+            	<div class="col-sm-6 colFixLeft">
+                	<div class="containerStyles greyBorder">
+                    	<h2>Buyer's Offer</h2>
+                        <p class="blackPrice">£179,000</p>
+                        <p class="subText">Subject to offer qualification by Purplebricks</p>
+                        <button class="btn btn-grey">VIEW COMMENTS</button>
+                        <ul class="dateList">
+                        	<li>
+                            	Date: 24/10/2013
+                            </li>
+                            <li>
+                            	Time: 21:05
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 colFixRight">
+                	<div class="containerStyles redBox">
+                    	<h2>Your Response</h2>
+                        <p>You have withdrawn your acceptance of the offer</p>
+                        <button class="btn btn-grey">VIEW COMMENTS</button>
+                        <ul class="dateList">
+                        	<li>
+                            	Date: 24/10/2013
+                            </li>
+                            <li>
+                            	Time: 21:05
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+    	<div class="container mxWidth containerStyles">
+            <div class="row">
+                <div class="col-sm-12">
+                	<h2>Re-open negotiations</h2>
+                    <span class="showHide">Hide</span>
+                </div>
+            </div>
+            <div class="toggleThis">
+                <div class="row greyBorder">
+                    <div class="col-sm-12 ">
+                        <div class="innerContainerStyles greyBorder">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <p class="largePurple">Would you like your Expert, Robert White, to negotiate on your behalf? It's completely free!</p>
+                                </div>
+                                <div class="col-sm-4 rightAlign">
+                                    <button class="btn btn-purple negotiateBtn">NEGOTIATE FOR ME</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row topMargin">
+                    <div class="col-sm-12 topMargin">
+                        <h4 class="offerTitle">Enter an offer you would be willing to accept:</h4>
+                    </div>
+                </div>
+                <div class="row topMargin">
+                    <div class="col-sm-12">
+                        <div class="inputPriceWrap">
+                            <form id="priceSubmit">
+                                <fieldset>
+                                    <span>£ </span><input type="text" id="number" data-a-dec="." data-a-sep=",">
+                                    <button id="submitOffer" class="btn btn-blue submitOffer">SUBMIT OFFER</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row topMargin">
+                    <div class="col-sm-12">
+                        <button class="btn btn-purple commentBtn">ADD COMMENTS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+    	<div class="container mxWidth">
+        	<div class="row">
+            	<div class="col-sm-9 paddingKill">
+                    <ul class="footerList">
+                    	<li>
+                        	CONTACT US
+                        </li>
+                        <li>
+                        	|
+                        </li>
+                        <li>
+                         	FAQ
+                        </li>
+                        <li>
+                        	|
+                        </li>
+                        <li>
+                        	JOIN THE TEAM
+                        </li>
+                        <li>
+                        	|
+                        </li>
+                        <li>
+                        	ABOUT US
+                        </li>
+                        <li>
+                        	|
+                        </li>
+                        <li>
+                        	LIVE HELP
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 paddingKill alignRight">
+                	<ul class="footerList">
+                		<li>
+                        	<img src="img/twitIcon.jpg" width="26" height="21" alt="twitter"> </li>
+                        <li>
+                   	    	<img src="img/fbIcon.jpg" width="26" height="21" alt="fb"> </li>
+                        <li>
+                   	    	<img src="img/ytIcon.jpg" width="26" height="21" alt="YouTube"> </li>
+                        <li>
+                   	    	<img src="img/pintIcon.jpg" width="26" height="21" alt="Pinterest"> </li>
+                        <li>
+                   	    <img src="img/gIcon.jpg" width="26" height="21" alt="Google+"> </li>
+                	</ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script> 
+<script src="http://cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.min.js"></script>
+<script src="js/lib/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/lib/autoNumeric.js"></script>
+<script src="js/fn.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,367 @@
+@charset "utf-8";
+
+/* ======= GLOBAL / HEADER STYLES ======== */
+
+@font-face {
+    font-family: sansProReg;
+	src:url(../fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: sansProSemi;
+	src:url(../fonts/SourceSansPro-Semi.otf);
+}
+
+@font-face {
+    font-family: sansProBold;
+	src:url(../fonts/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+    font-family: sansProBlack;
+	src:url(../fonts/SourceSansPro-Black.otf)
+}
+
+html, body {
+	margin:0;	
+}
+
+.bold {
+	font-family: sansProBold;
+}
+
+.mxWidth {
+	max-width:900px;
+}
+
+.statusBar {
+	padding: 3px 45px;
+	background: #ed1c24;
+	font-size:22px;
+	color:#fff;
+}
+
+p {
+	margin:0;	
+}
+
+h2 {
+	font-family:sansProBlack;
+	color:#592c65;
+	font-size:28px;
+	margin:0;
+}
+
+h3 {
+	font-family:sansProBlack;
+	color:#592c65;
+	font-size:22px;
+	margin: 5px 0;
+}
+
+.topMargin {
+	margin-top:6px;	
+}
+
+.alignRight {
+	text-align:right;	
+}
+
+.inline {
+	display:inline-block;	
+}
+
+.purplePrice {
+	font-family:sansProBlack;
+	color:#592c65;
+	font-size:28px;
+	margin: -5px 0 3px;
+}
+
+.blackPrice {
+	font-size:28px;
+	font-weight:bold;
+	color:#000;	
+}
+
+.largePurple {
+	font-size:18px;
+	color:#592c65;
+	font-weight:bold;
+}
+
+.rightAlign {
+	text-align:right;
+}
+
+.subText {
+	font-size:11px;
+	margin-bottom:18px;
+}
+
+.btn-grey {
+	background-color:#aaa;
+	color:#fff;
+	font-family: arial;
+	font-weight:bold;
+	font-size:16px;
+	padding:2px 8px;
+}
+
+.btn-purple {
+	background-color:#990099;
+	color:#fff;
+	font-family: arial;
+	font-weight:bold;
+	font-size:16px;
+	padding:2px 8px;
+}
+
+.btn-blue {
+	background-color:#00aeef;
+	color:#fff;
+	font-family: arial;
+	font-weight:bold;
+	font-size:22px;
+	padding:2px 8px;
+}
+
+.submitOffer {
+    float:right; 
+    margin-top:5px;
+}
+
+.negotiateBtn {
+	margin-top:10px;	
+}
+
+.containerStyles {
+	margin-top:10px;
+	border: 1px solid #990099;
+	padding: 25px 45px;
+}
+
+.innerContainerStyles {
+	margin-top:10px;
+	border: 1px solid #990099;
+	padding: 20px 30px;
+}
+
+.greyBorder {
+	border-color:#a5a5a5;	
+}
+
+.redBox {
+	border: 2px solid #ed1c24;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   padding:24px 45px;;
+   background: #e8e8e8;
+}
+
+.redBox h2 {
+	color: #ed1c24;
+}
+
+
+.redBox p {
+	color: #ed1c24;
+	font-size: 22px;
+	font-weight: bold;
+	line-height:1.2em;
+	margin-bottom:20px;
+}
+
+button.largeFont {
+	font-size:16px;
+}
+
+.btn:hover {
+    color:#fff; 
+    opacity:0.8;
+}
+
+
+ul.dateList {
+	display:inline;	
+	font-size:12px;
+	margin:0;
+	padding: 0;
+}
+
+ul.dateList li {
+	display:inline-block;
+}
+
+ul.dateList li:first-child {
+	padding:0 8px;
+}
+
+.colFixLeft {
+	padding-left:0;	
+}
+
+.colFixRight {
+	padding-right:0;		
+}
+
+footer {
+	background:#545353;
+	padding:10px 0;
+	color:#fff;
+	letter-spacing:0.05em;
+	margin-top:130px;
+}
+
+.paddingKill {
+	padding:0;	
+}
+
+.marginKill {
+	margin:0;
+    margin-bottom:0 !important;
+}
+
+.showHide  {
+	position:absolute;
+	top:0;
+	right:15px;
+    cursor: pointer;
+	
+}
+
+/* ===== SECTION ID STYLES ----- */
+
+section {
+	margin-bottom: 30px;	
+}
+
+#status {
+	margin-bottom:10px;	
+}
+
+#header {
+	background: #f1f3f2;
+	box-shadow: #c7c7c7 1px 2px 8px;
+	margin-bottom:40px;
+	min-height:102px;
+}
+
+#splitHoriSec {
+	margin-top:-10px;	
+}
+
+
+/* ===== HEADER STYLES ===== */
+
+
+header {
+	color:#580066;
+	margin:0 -15px;
+}
+
+header #leftCol {
+	text-align:left;
+	padding-top:16px;
+}
+
+header #rightCol h2 {
+	text-align:right;
+	margin-top:50px;
+}	
+
+header #leftCol p {
+	font-family:sansProReg;
+	margin: 0 0 5px;
+}	
+
+
+/* ===== CUSTOM STYLES ===== */
+
+.containerStyles h2 {
+	border-bottom: 1px solid #acacac;
+	padding-bottom:10px;
+	margin-bottom:20px;
+}
+
+.containerStyles h3 {
+	width:70%;
+	font-size:20px;
+}
+
+#housePic {
+	display:inline-block;
+	margin-right:10px;
+}
+
+
+ul.buyersDetails {
+	padding:0;
+	font-size:17px;
+	margin-bottom:5px;
+}
+
+ul.buyersDetails li {
+	display:inline-block;
+}
+
+ul.buyersDetails li:first-child {
+	min-width:150px;
+	color:#592c65;
+}
+
+.offerTitle {
+	padding-left:32px;	
+	font-family:sansProBold;
+	color:#592c65;
+	font-size:22px;
+}
+
+.commentBtn {
+	margin-left:32px;	
+}
+
+.inputPriceWrap span {
+	font-weight:bold;
+	font-size:42px;
+	color:#979797;
+	vertical-align:top;
+	margin-top:-10px;
+	display:inline-block;
+	margin-right:10px;
+}
+
+.inputPriceWrap input {
+	padding:2px 4px;
+	vertical-align:top;
+	display:inline-block;
+	font-size:24px;
+	font-weight:bold;
+	max-width:230px;
+    border-radius: 5px;
+    border:1px solid #cecece;
+}
+
+ul.footerList {
+	padding:0;
+	margin:0;
+}
+
+ul.footerList li {
+	display:inline-block;
+	padding:0;
+}
+
+ul.footerList li:nth-child(even) {
+	display:inline-block;
+	padding:0 10px;;
+}
+
+
+
+
+
+
+
+
